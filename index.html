@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1>To-Do list web app</h1>
+        </div>
+        <div class="container">
+            <div class="textcont">
+                <input type="text" placeholder="Title" id="titlebox"><br>
+                <textarea placeholder="Description" id="descbox"></textarea><br>
+                <button id="save">Save</button>
+            </div>
+            <div class="todo">
+                <table id="Table">
+                    <tr>
+                        <th>Title</th>
+                        <th>Description</th>
+                        <th>Actions</th>
+                    </tr>
+                    <tr class="desc" id="desc">
+                        <td id="title">Watch Anime</td>
+                        <td id="description">Watch the anime Kono suba</td>
+                        <td>
+                            <button id="edit">Edit</button>
+                            <button id="delete">Delete</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+      
+        </div>
+        
+        <script src="./app.js"></script>
+    </body>
+</html>
